@@ -1,0 +1,87 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment files, credentials, and certificates
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.secrets
+secrets/
+
+# Databases, backups, and user-generated data
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.bak
+*.backup
+*.dump
+*.sql.gz
+storage/
+uploads/
+user_data/
+user-storage/
+data/
+
+# Browser scratch profiles and test output
+browser-profile/
+browser-profiles/
+**/browser-profile/
+**/browser-profiles/
+chrome-profile/
+chromium-profile/
+playwright-report/
+test-results/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# Lockfiles
+**/package-lock.json
+**/npm-shrinkwrap.json
+**/yarn.lock
+**/pnpm-lock.yaml
+**/poetry.lock
+**/Pipfile.lock
+**/uv.lock
+**/Cargo.lock
+**/composer.lock
+**/Gemfile.lock
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

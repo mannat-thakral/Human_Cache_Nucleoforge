@@ -1,0 +1,26 @@
+{
+  "name": "Human Cache — AI Knowledge OS",
+  "short_name": "Human Cache",
+  "description": "Adaptive educational knowledge vault with proactive spaced repetition and smart capture.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/file.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "share_title",
+      "text": "share_text",
+      "url": "share_url"
+    }
+  }
+}
